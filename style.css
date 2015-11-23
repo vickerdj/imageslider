@@ -1,0 +1,79 @@
+/*GLOBAL STYLES------------------------------------*/
+body {
+	background-color: #fff;}
+
+.container {
+	height: 330px;
+	width: 550px;
+	margin: 100px auto 50px auto;
+	border: 5px solid #000;
+	overflow: hidden;
+	position: relative;}
+
+.carousel {
+	height: 330px;
+	width: 4400px;
+	margin: 0 auto;
+	position: relative;}
+
+.slide{
+	float: left;}
+
+.slideImage {
+	height: 330px;
+	width: 550px;}
+
+.preview {
+	height: 132px;
+	width: 220px;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 2;}
+
+.before {
+	left: -25px;}
+
+.after {
+	left: 45px;}
+
+.arrow {
+	position: absolute;
+	top: 130px;
+	z-index: 2;}
+
+.previous {
+	left: 20px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-right:20px solid #B2B2CC; }
+
+.next {
+	left: 490px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-left:20px solid #B2B2CC; }
+
+.hidden {
+	display: none;}
+
+.nav {
+	margin: 0 auto;}
+
+[class*="dot"] {
+	height: 10px;
+	width: 10px;
+	border: 1px solid #29A3CC;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 20px;}
+
+[class*="dot"]:last-of-type {
+	margin-right: 0;}
+
+.fillDot {
+	background-color: red;
+}
